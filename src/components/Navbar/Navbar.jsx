@@ -1,17 +1,17 @@
-import React from 'react'
-import logo from '../../assets/logo.svg'
-import user from '../../assets/Ellipse.svg'
+import React from 'react';
+import logo from '../../assets/logo.svg';
+import user from '../../assets/Ellipse.svg';
 
-import './Navbar.scss';
+import styles from './Navbar.module.scss';
 
 const Navbar = () => {
   return (
-    <section className='navbar'>
+    <section className={styles.navbar}>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <div className="aside__item_main">
-            <img src={logo} alt="logo" className='aside__title_logo' />
-            <span className='aside__title_text'>Dashboard <span className='aside__title_subtext'>v.01</span></span>
+          <div className={styles.title}>
+            <img src={logo} alt="logo" className={styles.title_logo} />
+            <span className={styles.title_text}>Dashboard <span className={styles.title_subtext}>v.01</span></span>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -37,11 +37,11 @@ const Navbar = () => {
                 <a className="nav-link" href="#">Help</a>
               </li>
             </ul>
-            <div className='aside__user'>
-              <img src={user} alt="user" className='aside__user__icon' />
-              <div className="aside__user__text">
-                <span className='aside__user_name'>Evano</span>
-                <span className='aside__user_role'>Project Manager</span>
+            <div className={styles.user}>
+              <img src={user} alt="user" />
+              <div className={styles.user_text}>
+                <span className={styles.user_name}>Evano</span>
+                <span className={styles.user_role}>Project Manager</span>
               </div>
             </div>
           </div>

@@ -11,7 +11,7 @@
 }
 
 @mixin onDesktop {
-  @media (min-width: 1025px) {
+  @media (min-width: 991px) {
     @content;
   }
 }

@@ -1,9 +1,0 @@
-@import "../../assets/styles/utils/mixins";
-
-.navbar {
-  display: block;
-  @include onLarge {
-    display: none;
-  }
-
-}
