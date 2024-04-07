@@ -1,0 +1,12 @@
+@import "../styles/utils/mixins";
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  @include onLarge {
+    flex-direction: row;
+  }
+}

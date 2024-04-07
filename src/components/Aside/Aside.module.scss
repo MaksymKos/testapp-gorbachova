@@ -1,0 +1,103 @@
+@import "../../assets/styles/utils/mixins";
+
+.aside {
+  padding: 36px 28px 76px;
+  display: none;
+
+  @include onLarge {
+    display: block;
+  }
+
+  &__main {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 64px;
+
+    &_logo {
+      height: 30px;
+      width: 32px;
+    }
+
+    &_text {
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 39px;
+    }
+
+    &_subtext {
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 15px;
+      color: #838383;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 18px;
+    list-style: none;
+  }
+
+  &__item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    padding: 11px 8px;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #9197b3;
+
+    &:hover {
+      color: white;
+      background-color: #5932ea;
+    }
+
+    &_arrow {
+      font-size: 18px;
+      font-weight: 400;
+      fill: white;
+    }
+
+    &_main {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+  }
+
+  &__user {
+    display: flex;
+    gap: 12px;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &_name {
+      font-size: 14px;
+      font-weight: 400;
+    }
+    &_role {
+      font-size: 12px;
+      font-weight: 400;
+      color: #757575;
+    }
+  }
+}
