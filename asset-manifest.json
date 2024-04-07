@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/testapp-gorbachova/static/css/main.b84d3491.css",
-    "main.js": "/testapp-gorbachova/static/js/main.2bdafb0c.js",
+    "main.css": "/testapp-gorbachova/static/css/main.2fe21a83.css",
+    "main.js": "/testapp-gorbachova/static/js/main.c45cfc46.js",
     "static/media/Ellipse.svg": "/testapp-gorbachova/static/media/Ellipse.a137c6683126b4c950b608e8ad4fb385.svg",
     "static/media/menu-promote.svg": "/testapp-gorbachova/static/media/menu-promote.5230029f4e637c534c143c4d95cf421f.svg",
     "static/media/menu-income.svg": "/testapp-gorbachova/static/media/menu-income.25d824b57e5c5a753432296807e7285d.svg",
@@ -12,11 +12,11 @@
     "index.html": "/testapp-gorbachova/index.html",
     "static/media/menu-dashboard.svg": "/testapp-gorbachova/static/media/menu-dashboard.153a0eb179be0548729792a4f21fc52e.svg",
     "static/media/menu-arrow.svg": "/testapp-gorbachova/static/media/menu-arrow.e5533dfe41396b8f16a7858c6cde3330.svg",
-    "main.b84d3491.css.map": "/testapp-gorbachova/static/css/main.b84d3491.css.map",
-    "main.2bdafb0c.js.map": "/testapp-gorbachova/static/js/main.2bdafb0c.js.map"
+    "main.2fe21a83.css.map": "/testapp-gorbachova/static/css/main.2fe21a83.css.map",
+    "main.c45cfc46.js.map": "/testapp-gorbachova/static/js/main.c45cfc46.js.map"
   },
   "entrypoints": [
-    "static/css/main.b84d3491.css",
-    "static/js/main.2bdafb0c.js"
+    "static/css/main.2fe21a83.css",
+    "static/js/main.c45cfc46.js"
   ]
 }
